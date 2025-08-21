@@ -1,0 +1,41 @@
+/* src/pages/Users.css */
+.user-card-link { text-decoration: none; color: inherit; }
+.user-card {
+  display: flex;
+  align-items: center;
+  background-color: var(--card-background);
+  padding: 1rem;
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow);
+  margin-bottom: 1rem;
+}
+.user-avatar { width: 50px; height: 50px; border-radius: 50%; margin-right: 1rem; }
+.user-info { flex-grow: 1; }
+.user-name { margin: 0; font-weight: 600; }
+.user-email { margin: 0.25rem 0 0; color: var(--subtext-color); }
+.user-arrow { font-size: 1.5rem; color: var(--subtext-color); }
+
+/* src/pages/UserDetail.css */
+.detail-card { padding: 1.5rem; }
+.back-link { display: inline-block; margin-bottom: 1rem; color: var(--primary-color); text-decoration: none; }
+.detail-header { text-align: center; border-bottom: 1px solid #eee; padding-bottom: 1rem; }
+.detail-header img { width: 100px; height: 100px; border-radius: 50%; }
+.detail-header h2 { margin: 0.5rem 0 0; }
+.detail-header p { margin: 0.25rem 0 0; color: var(--subtext-color); }
+.detail-body { margin-top: 1rem; }
+.detail-item { display: flex; justify-content: space-between; padding: 0.75rem 0; border-bottom: 1px solid #f0f0f0; }
+.detail-item span:first-child { color: var(--subtext-color); }
+.status.active { color: #22c55e; } .status.inactive { color: #ef4444; }
+.photo-attachment { margin-top: 2rem; }
+.attached-photo { max-width: 100%; border-radius: var(--border-radius); margin-top: 1rem; }
+input[type="file"] { display: none; }
+.upload-btn {
+  display: inline-block;
+  background-color: var(--primary-color);
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 1rem;
+  text-align: center;
+}

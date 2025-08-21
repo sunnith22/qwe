@@ -1,0 +1,114 @@
+/* src/pages/UserDetail.css */
+.detail-card {
+  padding: 1.5rem;
+}
+
+.back-link {
+  display: inline-block;
+  margin-bottom: 1rem;
+  color: var(--primary-color);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.detail-header {
+  text-align: center;
+  border-bottom: 1px solid #e5e7eb;
+  padding-bottom: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.detail-header img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid white;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+.detail-header h2 {
+  margin: 0.75rem 0 0;
+  font-size: 1.5rem;
+}
+
+.detail-header p {
+  margin: 0.25rem 0 0;
+  color: var(--subtext-color);
+}
+
+.detail-body {
+  margin-top: 1rem;
+}
+
+.detail-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.detail-item:last-child {
+  border-bottom: none;
+}
+
+.detail-item span:first-child {
+  color: var(--subtext-color);
+}
+
+.detail-item span:last-child {
+  font-weight: 500;
+}
+
+.status {
+  padding: 0.25rem 0.75rem;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.status.active {
+  color: #166534;
+  background-color: #dcfce7;
+}
+
+.status.inactive {
+  color: #991b1b;
+  background-color: #fee2e2;
+}
+
+.photo-attachment {
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #e5e7eb;
+}
+
+.photo-attachment h3 {
+  margin-top: 0;
+}
+
+.attached-photo {
+  max-width: 100%;
+  border-radius: var(--border-radius);
+  margin-top: 1rem;
+  box-shadow: var(--shadow);
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.upload-btn {
+  display: block;
+  width: 100%;
+  background-color: var(--primary-color);
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 1rem;
+  text-align: center;
+  font-weight: 500;
+}

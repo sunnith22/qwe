@@ -1,0 +1,48 @@
+{
+  "products": [
+    {
+      "id": "prod1",
+      "name": "GPS Fitness Smartwatch",
+      "description": "Track your workouts, heart rate, and sleep patterns with style.",
+      "price": 22999,
+      "imageUrl": "https://placehold.co/600x400/a7c957/white?text=Watch",
+      "inStock": true,
+      "soldCount": 8240,
+      "isNew": true,
+      "stock": 50
+    },
+    {
+      "id": "prod2",
+      "name": "Ergonomic Mesh Office Chair",
+      "description": "Designed for all-day comfort with adjustable lumbar support, armrests, and headrest.",
+      "price": 18750,
+      "imageUrl": "https://placehold.co/600x400/f2e8cf/black?text=Chair",
+      "inStock": false,
+      "soldCount": 3490,
+      "isNew": false,
+      "stock": 0
+    },
+    {
+      "id": "prod3",
+      "name": "Smart Robot Vacuum Cleaner",
+      "description": "Intelligent navigation and self-charging for effortless cleaning.",
+      "price": 28500,
+      "imageUrl": "https://placehold.co/600x400/386641/white?text=Vacuum",
+      "inStock": true,
+      "soldCount": 6100,
+      "isNew": false,
+      "stock": 25
+    },
+    {
+      "id": "prod4",
+      "name": "Portable Bluetooth Speaker",
+      "description": "Crisp, clear sound with a waterproof design for music anywhere.",
+      "price": 4999,
+      "imageUrl": "https://placehold.co/600x400/6a040f/white?text=Speaker",
+      "inStock": true,
+      "soldCount": 12500,
+      "isNew": true,
+      "stock": 100
+    }
+  ]
+}

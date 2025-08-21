@@ -1,0 +1,54 @@
+{
+  "people": [
+    {
+      "id": 1,
+      "name": "Priya Patel",
+      "email": "priya.patel@example.com",
+      "profilePic": "https://i.pravatar.cc/150?img=1",
+      "status": "Active",
+      "gender": "Female",
+      "dob": "1990-05-15",
+      "location": "Mumbai\\, India"
+    },
+    {
+      "id": 2,
+      "name": "Rohan Sharma",
+      "email": "rohan.sharma@example.com",
+      "profilePic": "https://i.pravatar.cc/150?img=2",
+      "status": "Inactive",
+      "gender": "Male",
+      "dob": "1988-11-22",
+      "location": "Delhi\\, India"
+    },
+    {
+      "id": 3,
+      "name": "Anjali Singh",
+      "email": "anjali.singh@example.com",
+      "profilePic": "https://i.pravatar.cc/150?img=3",
+      "status": "Active",
+      "gender": "Female",
+      "dob": "1992-02-10",
+      "location": "Bangalore\\, India"
+    },
+    {
+      "id": 4,
+      "name": "Vikram Reddy",
+      "email": "vikram.reddy@example.com",
+      "profilePic": "https://i.pravatar.cc/150?img=4",
+      "status": "Active",
+      "gender": "Male",
+      "dob": "1985-08-30",
+      "location": "Hyderabad\\, India"
+    },
+    {
+      "id": 5,
+      "name": "Neha Gupta",
+      "email": "neha.gupta@example.com",
+      "profilePic": "https://i.pravatar.cc/150?img=5",
+      "status": "Inactive",
+      "gender": "Female",
+      "dob": "1995-12-01",
+      "location": "Pune\\, India"
+    }
+  ]
+}
